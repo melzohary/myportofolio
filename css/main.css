@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+/* Header  */
+header{
+    background-color: rgb(243, 245, 243);
+    position: fixed;
+    width: 100%;
+    box-shadow: 5px 2px 15px 2px #dddcdc81;
+    z-index: 999;
+}
+
+.navbar-brand{
+    font-size: 1.8em;
+    color: rgb(37, 104, 228);
+    font-weight: 800;
+}
+
+.navbar .nav-item {
+    font-size:1.1em;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+/* Home  */
+.home{
+    background-image: url(../images/WhatsApp\ Image\ 2024-02-08\ at\ 8.29.49\ PM\ \(2\).jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+        align-items: center;
+        color: #fff;
+}
+
+.home-content h2{
+   color: rgb(37, 104, 228);
+   font-weight: 700;
+   font-size: 2em;
+}
+
+.home-content h3{
+   font-weight: 700;
+   font-size: 1.7em;
+}
+
+.home-content h3{
+   font-weight: 700;
+   font-size: 1.7em;
+}
+
+.home-content .btn{
+   background-color: rgb(37, 104, 228);
+   height: 45px;
+   width: 200px;
+   color: #fff;
+   border: none;
+   border-radius: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transition: all .4s ease;
+}
+
+.home-content .btn:hover{
+   color: rgb(37, 104, 228);
+   background-color: #b1aeae;
+   transform: scale(1.1);
+}
+
+.home-content .btn a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.social-icon a{
+    color: #fff;
+    font-size: 1.5em;
+    margin-right: 15px;
+    transition: all .3s ease;
+}
+
+.social-icon a:hover{
+    color: rgb(94, 150, 253);
+    transform:scale(1.2);
+}
+
+/* SERVICES  */
+.services{
+    background-color: #fff8f8;
+}
+
+.title{
+    font-size: 2em;
+    color: rgb(37, 104, 228);
+    font-weight: 800;
+}
+
+.services-card{
+    padding: 30px;
+    box-shadow: 1px 2px 5px 1px #d4d3d3;
+    height: 400px;
+    width:80%;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+}
+
+.services-card:hover{
+    box-shadow: 1px 2px 5px 5px #d4d3d3;
+}
+
+.services-card i{
+    font-size: 7em;
+    color: rgb(37, 104, 228);
+}
+
+.services-card h4{
+    font-size: 1.4em;
+    color: rgb(37, 104, 228);
+    font-weight: 600;
+}
+
+/* PRojects  */
+
+.project-card{
+    width:85%;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    overflow: hidden;
+    transition: all .4s ease;
+}
+
+.project-img{
+    overflow: hidden;
+}
+
+.project-card:hover img{
+   transform: scale(1.3);
+}
+
+.project-img img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: all .4s ease;
+}
+
+.project-title a{
+    text-decoration: none;
+
+}
+
+/* Contact  */
+
+.contact-card{
+    box-shadow: 1px 2px 5px 5px #d4d3d3;
+    min-width:90%;
+    border-radius:10px;
+    padding:25px;
+    margin:20px;
+    transition:all .3s ease ;
+    overflow:hidden;
+}
+
+.contact-card:hover{
+    box-shadow: 3px 2px 5px 5px #d4d3d3;
+}
+
+.contact-card i{
+    font-size:3.9em;
+    color:rgb(37,104,228)
+}
+
+.contact-card h3{
+    font-size:1.3em;
+    font-weight:700;
+    margin:20px;
+}
+
+.contact-card p{
+    font-size:1.2em;
+    font-weight:500;
+    margin:10px;
+}
+/* Footer  */
+.footer-cart h3{
+    font-size:.9em;
+    font-weight:600;
+}
